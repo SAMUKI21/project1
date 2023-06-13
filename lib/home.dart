@@ -64,10 +64,11 @@ class Homescreen extends StatelessWidget {
             side: const BorderSide(width: 3.0),
             foregroundColor: Colors.black,
             backgroundColor: Colors.white,
+            
           ),
           child: const Text(
             'sign in',
-            style: TextStyle(fontSize: 24),
+            style: TextStyle(fontSize: 20,),
           ),
         ),
         const SizedBox(height: 20), // Add space between the "Sign in" button and the image
